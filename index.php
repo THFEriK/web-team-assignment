@@ -17,7 +17,7 @@
         <input type="button" onclick="hideLogin()" value="Register">
     </form>
     <h1>Register</h1>
-    <form action="" method="POST">
+    <form action="inc/register.inc.php" method="POST">
         <input type="text" name="user" placeholder="Username">
         <input type="password" name="psw" placeholder="Password">
         <input type="submit" value="Regisztráció"> 
