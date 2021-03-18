@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="" method="POST">
+    <form action="inc/login.inc.php" method="POST">
         <img src="https://i.imgur.com/w6odXGT.png">
         <input type="text" name="user" placeholder="Username">
         <input type="password" name="psw" placeholder="Password">
@@ -18,7 +18,7 @@
         <input type="button" onclick="hideLogin()" id="button" value="Register">
     </form>
         
-    <form action="" method="POST">
+    <form action="inc/register.inc.php" method="POST">
         <img src="https://i.imgur.com/CMcnWUl.png">
         <input type="text" name="user" placeholder="Username">
         <input type="password" name="psw" placeholder="Password">
