@@ -6,22 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoo</title>
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login</h1>
     <form action="" method="POST">
+        <img src="https://i.imgur.com/w6odXGT.png">
         <input type="text" name="user" placeholder="Username">
         <input type="password" name="psw" placeholder="Password">
-        <input type="submit" value="Login"> 
-        <input type="button" onclick="hideLogin()" value="Register">
+        <br>
+        <input type="submit" id="button" value="Login"> 
+        <input type="button" onclick="hideLogin()" id="button" value="Register">
     </form>
-    <h1>Register</h1>
+        
     <form action="" method="POST">
+        <img src="https://i.imgur.com/CMcnWUl.png">
         <input type="text" name="user" placeholder="Username">
         <input type="password" name="psw" placeholder="Password">
-        <input type="submit" value="Regisztráció"> 
-        <input type="button" onclick="showLogin()" value="Login">
+        <br>
+        <input type="submit" id="button" value="Register">
+        <input type="button" onclick="showLogin()" id="button" value="Login">
     </form>
 </body>
 <script src="#"></script>
