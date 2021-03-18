@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form action="" method="POST">
+    <form action="inc/login.inc.php" method="POST">
         <input type="text" name="user" placeholder="Username">
         <input type="password" name="psw" placeholder="Password">
         <input type="submit" value="Login"> 
